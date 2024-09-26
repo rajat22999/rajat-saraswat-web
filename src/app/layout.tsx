@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Rajat Saraswat | Portfolio",
   description:
-    "Rajat Saraswat is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Rajat Saraswat's portfolio - A software engineer specializing in frontend development, delivering exceptional user experiences through responsive and modern web designs.",
 };
 
 export default function RootLayout({
@@ -33,8 +33,6 @@ export default function RootLayout({
         <link rel="canonical" href="https://rajatsaraswat.in/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />        
         <meta charSet="UTF-8" />
-
-        <title>Rajat Saraswat - Software Engineer & Frontend Developer</title>
         <meta name="description" content="Rajat Saraswat's portfolio - A software engineer specializing in frontend development, delivering exceptional user experiences through responsive and modern web designs." />
         <meta property="og:title" content="Rajat Saraswat - Software Engineer & Frontend Developer" />
         <meta property="og:description" content="Explore the portfolio of Rajat Saraswat, a skilled frontend developer with expertise in building interactive, user-focused web applications." />

@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blogs | Rajat Saraswat",
   description:
-    "Rajat Saraswat is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Rajat Saraswat's portfolio - A software engineer specializing in frontend development, delivering exceptional user experiences through responsive and modern web designs.",
 };
 
 export default async function Blog() {
