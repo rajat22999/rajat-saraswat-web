@@ -24,15 +24,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <Head>
+      <Head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://rajatsaraswat.in/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />        
         <meta charSet="UTF-8" />
-        <title>Rajat Saraswat</title>
+
+        <title>Rajat Saraswat - Software Engineer & Frontend Developer</title>
+        <meta name="description" content="Rajat Saraswat's portfolio - A software engineer specializing in frontend development, delivering exceptional user experiences through responsive and modern web designs." />
+        <meta property="og:title" content="Rajat Saraswat - Software Engineer & Frontend Developer" />
+        <meta property="og:description" content="Explore the portfolio of Rajat Saraswat, a skilled frontend developer with expertise in building interactive, user-focused web applications." />
+        <meta property="og:image" content="/images/profile.jpeg" />
+        <meta property="og:url" content="https://rajatsaraswat.in/" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <body
         className={twMerge(

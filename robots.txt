@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rajatsaraswat.in/sitemap.xml
