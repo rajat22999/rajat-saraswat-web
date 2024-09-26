@@ -24,6 +24,12 @@ export const TechStack = () => {
       className: "h-10 w-10",
     },
     {
+      title: "Firebase",
+      src: "/images/logos/firebase.svg",
+
+      className: "h-10 w-10",
+    },
+    {
       title: "Figma",
       src: "/images/logos/figma.png",
 
